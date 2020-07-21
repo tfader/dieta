@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d294ea55-2ac9-45b7-a440-1de394202490" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/application/_flash_messages.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/application/_menu_full.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/user_calendars/_form.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/user_calendars/edit.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/user_calendars/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/user_calendars/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/user_meals/_form.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/user_meals/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/user_calendars/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/user_calendars/index.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +151,7 @@
       <option name="presentableId" value="Default" />
       <updated>1595347421190</updated>
       <workItem from="1595347422332" duration="149000" />
-      <workItem from="1595347646934" duration="5474000" />
+      <workItem from="1595347646934" duration="5751000" />
     </task>
     <servers />
   </component>
