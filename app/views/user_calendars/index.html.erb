@@ -18,21 +18,21 @@
           <table class="table-responsive mt-4">
             <thead>
             <tr>
-              <th scope="col">#</th>
-              <th scope="col">Rodzaj</th>
-              <th scope="col">Posiłek</th>
-              <th scope="col" class="text-center">Ilość</th>
+              <th scope="col" class="p-small">#</th>
+              <th scope="col" class="p-small">Rodzaj</th>
+              <th scope="col" class="p-small">Posiłek</th>
+              <th scope="col" class="text-center p-small">Ilość</th>
               <th scope="col"></th>
             </tr>
             </thead>
             <tbody>
               <% user_calendar.user_meals.order(:meal_time).each do |user_meal| %>
                 <tr>
-                  <th scope="row"><%= user_meal.meal_time.strftime("%k:%M") %></th>
-                  <td><%= user_meal.meal_type.name %></td>
-                  <td><%= user_meal.meal_item.name %></td>
-                  <td class="text-center"><%= user_meal.quantity %></td>
-                  <td class="text-center"><%= link_to('Usuń', user_calendar_user_meal_path(user_calendar, user_meal), method: :delete, class: 'card-link red') %></td>
+                  <th scope="row" class="p-small"><%= user_meal.meal_time.strftime("%k:%M") %></th>
+                  <td class="p-small"><%= user_meal.meal_type.name %></td>
+                  <td class="p-small"><%= user_meal.meal_item.name %></td>
+                  <td class="text-center p-small"><%= user_meal.quantity %></td>
+                  <td class="text-center p-small"><%= link_to('Usuń', user_calendar_user_meal_path(user_calendar, user_meal), method: :delete, class: 'card-link red') %></td>
                 </tr>
               <% end %>
             </tbody>
