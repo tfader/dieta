@@ -1,0 +1,30 @@
+<%= form_with model: [@user_calendar, @user_meal], autocomplete: :off, local: true do |form| %>
+
+  <div class="form-group">
+    <label><%= 'Rodzaj posiłku' %></label>
+    <%= form.text_field :meal_type, data: { autocomplete: autocomplete_meal_type_meal_types_path }, :class => 'form-control select', :option => 'Small select', autofocus: true %>
+  </div>
+
+  <div class="form-group">
+    <label><%= 'Item' %></label>
+    <%= form.text_field :meal_item, data: { autocomplete: autocomplete_meal_item_meal_items_path }, :class => 'form-control select', :option => 'Small select' %>
+  </div>
+
+  <div class="form-group">
+    <label><%= 'Ilość' %></label>
+    <%= form.number_field :quantity, :class => 'form-control select' %>
+  </div>
+
+  <div class="form-group">
+    <label><%= 'Czas' %></label>
+    <%= form.time_field :meal_time , :class => 'form-control select' %>
+  </div>
+
+  <div class="mt-4">
+    <div class="d-flex justify-content-between">
+      <%= form.submit 'Zapisz', class: 'btn btn-primary' %>
+      <%= link_to 'Powrót', user_calendars_path, class: 'btn btn-secondary' %>
+    </div>
+  </div>
+
+<% end %>

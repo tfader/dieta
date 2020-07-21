@@ -1,0 +1,47 @@
+<div class="row mt-3">
+  <div class="col">
+    <div class="d-flex justify-content-between">
+      <%= link_to 'Nowy', new_user_calendar_path, class: 'btn btn-sm btn-primary' %>
+    </div>
+  </div>
+</div>
+<div class="row mt-3">
+  <% @user_calendars.each do |user_calendar| %>
+    <div class="col-md-6 col-sm-12">
+      <div class="card m-1 mb-3">
+        <div class="card-body">
+          <div class="d-flex justify-content-between">
+            <h5 class="card-title"><%= user_calendar.calendar_date %></h5>
+          </div>
+          <%= link_to 'Dodaj posiłek', new_user_calendar_user_meal_path(user_calendar), class: 'card-link' %>
+          <%= link_to 'Usuń dzienik', user_calendar_path(user_calendar), method: :delete, class: 'card-link red' %>
+          <table class="table mt-4">
+            <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Rodzaj</th>
+              <th scope="col">Posiłek</th>
+              <th scope="col" class="text-center">Ilość</th>
+              <th scope="col"></th>
+            </tr>
+            </thead>
+            <tbody>
+
+              <% user_calendar.user_meals.order(:meal_time).each do |user_meal| %>
+                <tr>
+                  <th scope="row"><%= user_meal.meal_time.strftime("%k:%M") %></th>
+                  <td><%= user_meal.meal_type.name %></td>
+                  <td><%= user_meal.meal_item.name %></td>
+                  <td class="text-center"><%= user_meal.quantity %></td>
+                  <td class="text-center"><%= link_to('Usuń', user_calendar_user_meal_path(user_calendar, user_meal), method: :delete, class: 'card-link red') %></td>
+                </tr>
+              <% end %>
+            </tbody>
+          </table>
+
+
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>

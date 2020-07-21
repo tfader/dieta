@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_calendar: one
+  meal_type: one
+  meal_item: one
+
+two:
+  user_calendar: two
+  meal_type: two
+  meal_item: two
