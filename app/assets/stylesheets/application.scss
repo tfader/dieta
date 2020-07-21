@@ -67,6 +67,7 @@ select {
 }
 
 .p-small {
-  font-size: small;
-  margin-bottom: 0;
+  @media (max-width: 720px) {
+    font-size: small;
+  }
 }
