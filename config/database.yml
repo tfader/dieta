@@ -78,8 +78,11 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
+
+
 production:
   <<: *default
-  database: dieta_production
-  username: dieta
+  host: ec2-34-193-232-231.compute-1.amazonaws.com
+  database: dbnp0tm9tdsh00
+  username: jtwpsfzmsirrqr
   password: <%= ENV['DIETA_DATABASE_PASSWORD'] %>
