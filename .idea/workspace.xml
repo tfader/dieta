@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d294ea55-2ac9-45b7-a440-1de394202490" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/devise/shared/_links.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/devise/shared/_links.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/user_calendars/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/user_calendars/index.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +24,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/views/user_meals" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -157,10 +160,18 @@
       <workItem from="1595359360096" duration="124000" />
       <workItem from="1595401872711" duration="192000" />
       <workItem from="1595405146710" duration="606000" />
+      <workItem from="1595424305386" duration="10000" />
+      <workItem from="1595424321769" duration="331000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="538" y="309" width="716" height="486" key="find.popup" timestamp="1595424515388">
+      <screen x="0" y="23" width="1792" height="1058" />
+    </state>
+    <state x="538" y="309" width="716" height="486" key="find.popup/0.23.1792.1058@0.23.1792.1058" timestamp="1595424515388" />
   </component>
 </project>
