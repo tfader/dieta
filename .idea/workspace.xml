@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d294ea55-2ac9-45b7-a440-1de394202490" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/user_calendars_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/user_calendars_controller.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,6 +156,7 @@
       <workItem from="1595358231185" duration="882000" />
       <workItem from="1595359204214" duration="131000" />
       <workItem from="1595359360096" duration="124000" />
+      <workItem from="1595401872711" duration="66000" />
     </task>
     <servers />
   </component>

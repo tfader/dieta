@@ -6,7 +6,7 @@ class UserCalendarsController < ApplicationController
   end
 
   def index
-    @user_calendars = current_user.user_calendars
+    @user_calendars = current_user.user_calendars.order(calendar_date: :desc).all
   end
 
   def new
