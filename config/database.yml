@@ -82,7 +82,7 @@ test:
 
 production:
   <<: *default
-  host: ec2-34-193-232-231.compute-1.amazonaws.com
-  database: dbnp0tm9tdsh00
-  username: jtwpsfzmsirrqr
+  host: ec2-54-78-127-245.eu-west-1.compute.amazonaws.com
+  database: d6kj16uq53o65
+  username: sjpyzlbbdqxuyy
   password: <%= ENV['DIETA_DATABASE_PASSWORD'] %>
